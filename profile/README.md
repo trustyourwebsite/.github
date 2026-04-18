@@ -14,6 +14,14 @@ Reference data and tools we use inside the scanner. Open for anyone who wants to
 
 More repos will land as we open-source parts of the scanner.
 
+## Our open-source tools
+
+- [dns-auth-check](https://github.com/trustyourwebsite/dns-auth-check) — SPF, DKIM, DMARC, BIMI and MTA-STS email authentication auditor ([npm](https://www.npmjs.com/package/@trustyourwebsite/dns-auth-check))
+- [security-headers](https://github.com/trustyourwebsite/security-headers) — HTTP security headers grader with A+ to F scoring ([npm](https://www.npmjs.com/package/@trustyourwebsite/security-headers))
+- [cookie-consent-validator](https://github.com/trustyourwebsite/cookie-consent-validator) — Verifies cookie banners actually stop tracking on "Reject All" ([npm](https://www.npmjs.com/package/@trustyourwebsite/cookie-consent-validator))
+
+Full scanner and managed service at **[trustyourwebsite.nl](https://trustyourwebsite.nl)**.
+
 ## Not legal advice
 
 Everything we publish is technical analysis. A scanner can't replace a lawyer and we won't pretend otherwise. If you have a live claim against you, talk to a lawyer.
