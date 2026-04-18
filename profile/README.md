@@ -1,6 +1,3 @@
-# .github
-TrustYourWebsite
-
 # TrustYourWebsite
 
 The rules for running a website in the EU keep piling up. GDPR. ePrivacy. Cookie consent. The European Accessibility Act. Image copyright. Meta tags that search engines actually read. Headers that keep your visitors safe.
