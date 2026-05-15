@@ -8,19 +8,23 @@ TrustYourWebsite gives you a plain-English view of where your site stands. You p
 
 Find it at **[trustyourwebsite.com](https://trustyourwebsite.com)**.
 
-## What's in this org
+## Open-source tools
 
-Reference data and tools we use inside the scanner. Open for anyone who wants to understand or contribute.
+CLIs covering individual checks from the scanner. Free, MIT-licensed, zero or minimal runtime dependencies, CI-friendly.
+
+| Tool | What it does |
+|------|--------------|
+| **[security-headers](https://trustyourwebsite.github.io/security-headers/)** | Grades HTTP security headers A+ to F — HSTS, CSP, X-Frame-Options, Permissions-Policy and more. Real CSP parser. &nbsp; [GitHub](https://github.com/trustyourwebsite/security-headers) · [npm](https://www.npmjs.com/package/@trustyourwebsite/security-headers) |
+| **[cookie-consent-validator](https://trustyourwebsite.github.io/cookie-consent-validator/)** | Clicks "Reject All" on cookie banners and verifies tracking actually stops. Detects 11+ CMPs in 13 languages. &nbsp; [GitHub](https://github.com/trustyourwebsite/cookie-consent-validator) · [npm](https://www.npmjs.com/package/@trustyourwebsite/cookie-consent-validator) |
+| **[dns-auth-check](https://trustyourwebsite.github.io/dns-auth-check/)** | Audits SPF, DKIM, DMARC, BIMI and MTA-STS. Recursive SPF lookup counting, automatic DKIM selector discovery. &nbsp; [GitHub](https://github.com/trustyourwebsite/dns-auth-check) · [npm](https://www.npmjs.com/package/@trustyourwebsite/dns-auth-check) |
 
 More repos will land as we open-source parts of the scanner.
 
-## Our open-source tools
+Hub page with install commands and previews: **[trustyourwebsite.github.io](https://trustyourwebsite.github.io/)**.
 
-- [dns-auth-check](https://github.com/trustyourwebsite/dns-auth-check) — SPF, DKIM, DMARC, BIMI and MTA-STS email authentication auditor ([npm](https://www.npmjs.com/package/@trustyourwebsite/dns-auth-check))
-- [security-headers](https://github.com/trustyourwebsite/security-headers) — HTTP security headers grader with A+ to F scoring ([npm](https://www.npmjs.com/package/@trustyourwebsite/security-headers))
-- [cookie-consent-validator](https://github.com/trustyourwebsite/cookie-consent-validator) — Verifies cookie banners actually stop tracking on "Reject All" ([npm](https://www.npmjs.com/package/@trustyourwebsite/cookie-consent-validator))
+## Full scanner
 
-Full scanner and managed service at **[trustyourwebsite.com](https://trustyourwebsite.com)**.
+The CLIs cover specific pieces. The managed service at **[trustyourwebsite.com](https://trustyourwebsite.com)** runs every check against every page of your site and gives you one prioritised fix-it report — security headers, cookie consent, GDPR policy text, email DNS auth, TLS, accessibility (WCAG 2.2 / EAA), image copyright, broken links, meta tags and structured data.
 
 ## Not legal advice
 
